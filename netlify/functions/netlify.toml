@@ -1,8 +1,0 @@
-[functions]
-
-Thư mục mà Netlify sẽ tìm các hàm (functions) của bạn
-Đảm bảo đường dẫn này khớp với cấu trúc thư mục của bạn: netlify/functions/
-directory = "netlify/functions/"
-
-Cấu hình để sử dụng esbuild, giúp đóng gói (bundle) và tối ưu hóa hàm Node.js nhanh hơn
-node_bundler = "esbuild"
