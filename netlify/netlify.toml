@@ -1,4 +1,4 @@
-ấu hình Build cho các hàm
+cấu hình Build cho các hàm
 [functions]
 
 Bật tính năng 'external_node_modules' để Netlify biết rằng
