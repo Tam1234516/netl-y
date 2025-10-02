@@ -1,0 +1,13 @@
+{
+  "name": "netlify-play-integrity-server",
+  "version": "1.0.0",
+  "description": "Serverless Function for Google Play Integrity verification.",
+  "main": "netlify/functions/verify-integrity.js",
+  "scripts": {
+    "start": "node netlify/functions/verify-integrity.js"
+  },
+  "dependencies": {
+    "@google-cloud/playintegrity": "^1.1.0",
+    "buffer": "^6.0.3"
+  }
+}
