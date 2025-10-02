@@ -1,13 +1,13 @@
 #cấu hình Build cho các hàm
 [functions]
 
-Bật tính năng 'external_node_modules' để Netlify biết rằng
-các hàm này có thể có các module Node bên ngoài (tức là @google-cloud/playintegrity)
-và phải tự động cài đặt chúng bằng npm install.
+#Bật tính năng 'external_node_modules' để Netlify biết rằng
+#các hàm này có thể có các module Node bên ngoài (tức là @google-cloud/playintegrity)
+#và phải tự động cài đặt chúng bằng npm install.
 external_node_modules = [
 "@google-cloud/playintegrity",
 "express"
 ]
 
-Chỉ định thư mục chứa các hàm serverless của bạn
+#Chỉ định thư mục chứa các hàm serverless của bạn
 directory = "netlify/functions"
